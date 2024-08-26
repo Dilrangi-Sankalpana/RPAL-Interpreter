@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="edde139b-ee7d-4674-8441-868203b55dac" name="Changes" comment="Some in built operators (Conc, Stem, Stern)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LexicalAnalyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/LexicalAnalyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control_stack_machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/control_stack_machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pranavan-S&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pranavan-S/RPAL_ProgrammingLanguage.git&quot;,
+    &quot;accountId&quot;: &quot;c6918897-4e29-45f2-9e97-a58e5a079b91&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ePW6WyjCyy2DcHMb2E1wudcSLQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.LexicalAnalyzer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RPALParser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Standardizer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.environment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.myrpal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scratch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/suben/Desktop/RPAL_ProgrammingLanguage&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Python&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\suben\Desktop\RPAL_ProgrammingLanguage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\suben\Desktop\RPAL_ProgrammingLanguage" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edde139b-ee7d-4674-8441-868203b55dac" name="Changes" comment="" />
+      <created>1711806519193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711806519193</updated>
+    </task>
+    <task id="LOCAL-00011" summary="print_tree included inside parser">
+      <option name="closed" value="true" />
+      <created>1711959503090</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711959503090</updated>
+    </task>
+    <task id="LOCAL-00012" summary="print_tree included inside parser">
+      <option name="closed" value="true" />
+      <created>1711959608975</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711959608975</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Improved Readability">
+      <option name="closed" value="true" />
+      <created>1711959943545</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711959943545</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Function Descriptions added">
+      <option name="closed" value="true" />
+      <created>1711961903743</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711961903743</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Improved Readability. Function Descriptions, comments, return statements added.">
+      <option name="closed" value="true" />
+      <created>1711961977278</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711961977278</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Improved Readability.">
+      <option name="closed" value="true" />
+      <created>1711962330133</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711962330133</updated>
+    </task>
+    <task id="LOCAL-00017" summary="print_tree() fixes">
+      <option name="closed" value="true" />
+      <created>1711967716137</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711967716137</updated>
+    </task>
+    <task id="LOCAL-00018" summary="print_tree() fixes">
+      <option name="closed" value="true" />
+      <created>1711968238342</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711968238342</updated>
+    </task>
+    <task id="LOCAL-00019" summary="writing output into a file">
+      <option name="closed" value="true" />
+      <created>1711968559518</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711968559518</updated>
+    </task>
+    <task id="LOCAL-00020" summary="output AST for test.txt">
+      <option name="closed" value="true" />
+      <created>1711968595886</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711968595886</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fcn_form is changed to function_form">
+      <option name="closed" value="true" />
+      <created>1711979613689</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711979613689</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fcn_form is changed to function_form">
+      <option name="closed" value="true" />
+      <created>1712028591512</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712028591512</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Parser file name is changed">
+      <option name="closed" value="true" />
+      <created>1712145048005</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712145048005</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Parser file name is changed">
+      <option name="closed" value="true" />
+      <created>1712145175837</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1712145175837</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Commented print statements. Reading inputs from command lines.">
+      <option name="closed" value="true" />
+      <created>1712146714350</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712146714350</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Organized the cmd arguments reading">
+      <option name="closed" value="true" />
+      <created>1712147231401</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1712147231401</updated>
+    </task>
+    <task id="LOCAL-00027" summary="File DNE error handled">
+      <option name="closed" value="true" />
+      <created>1712147260397</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712147260397</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Output changed">
+      <option name="closed" value="true" />
+      <created>1712147591958</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712147591958</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Bug fix at reading cmd arguments">
+      <option name="closed" value="true" />
+      <created>1712147887950</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1712147887950</updated>
+    </task>
+    <task id="LOCAL-00030" summary="String detection changed">
+      <option name="closed" value="true" />
+      <created>1712307076862</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1712307076862</updated>
+    </task>
+    <task id="LOCAL-00031" summary="\t bug fix at state 21, 22">
+      <option name="closed" value="true" />
+      <created>1712310836692</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1712310836692</updated>
+    </task>
+    <task id="LOCAL-00032" summary="\t bug fix at state 21, 22">
+      <option name="closed" value="true" />
+      <created>1712310910218</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1712310910218</updated>
+    </task>
+    <task id="LOCAL-00033" summary="\t bug fix at state 21, 22">
+      <option name="closed" value="true" />
+      <created>1712311013008</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1712311013008</updated>
+    </task>
+    <task id="LOCAL-00034" summary="\t bug fix at state 21, 22">
+      <option name="closed" value="true" />
+      <created>1712311027304</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1712311027304</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Standardizer.py">
+      <option name="closed" value="true" />
+      <created>1714581187264</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1714581187264</updated>
+    </task>
+    <task id="LOCAL-00036" summary="improving standardizer">
+      <option name="closed" value="true" />
+      <created>1714581946921</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1714581946921</updated>
+    </task>
+    <task id="LOCAL-00037" summary="improving standardizer">
+      <option name="closed" value="true" />
+      <created>1714710021706</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1714710021706</updated>
+    </task>
+    <task id="LOCAL-00038" summary="improving standardizer">
+      <option name="closed" value="true" />
+      <created>1714710156735</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1714710156735</updated>
+    </task>
+    <task id="LOCAL-00039" summary="improving standardizer">
+      <option name="closed" value="true" />
+      <created>1714710200506</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1714710200506</updated>
+    </task>
+    <task id="LOCAL-00040" summary="improving standardizer">
+      <option name="closed" value="true" />
+      <created>1714710234525</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1714710234525</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Standardizer completed">
+      <option name="closed" value="true" />
+      <created>1714718437058</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1714718437058</updated>
+    </task>
+    <task id="LOCAL-00042" summary="cse machine started. not finished">
+      <option name="closed" value="true" />
+      <created>1714765717078</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1714765717078</updated>
+    </task>
+    <task id="LOCAL-00043" summary="cse machine started. not finished">
+      <option name="closed" value="true" />
+      <created>1714766974478</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1714766974478</updated>
+    </task>
+    <task id="LOCAL-00044" summary="cse machine started. not finished">
+      <option name="closed" value="true" />
+      <created>1714766988188</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1714766988188</updated>
+    </task>
+    <task id="LOCAL-00045" summary="conditonal finished">
+      <option name="closed" value="true" />
+      <created>1714813860264</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1714813860264</updated>
+    </task>
+    <task id="LOCAL-00046" summary="conditonal finished">
+      <option name="closed" value="true" />
+      <created>1714814048526</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1714814048526</updated>
+    </task>
+    <task id="LOCAL-00047" summary="aug finished">
+      <option name="closed" value="true" />
+      <created>1714814237747</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1714814237747</updated>
+    </task>
+    <task id="LOCAL-00048" summary="upto rule 9, 10">
+      <option name="closed" value="true" />
+      <created>1714814993765</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1714814993765</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Tau finished">
+      <option name="closed" value="true" />
+      <created>1714816920694</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1714816920694</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Tau finished">
+      <option name="closed" value="true" />
+      <created>1714816985442</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1714816985442</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Rule 11 finished">
+      <option name="closed" value="true" />
+      <created>1714819681715</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1714819681715</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Comments, and reformatting">
+      <option name="closed" value="true" />
+      <created>1714820342156</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1714820342156</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Comments, and reformatting">
+      <option name="closed" value="true" />
+      <created>1714832310523</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1714832310523</updated>
+    </task>
+    <task id="LOCAL-00054" summary="bug fixes">
+      <option name="closed" value="true" />
+      <created>1714834937680</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1714834937680</updated>
+    </task>
+    <task id="LOCAL-00055" summary="bug fixes">
+      <option name="closed" value="true" />
+      <created>1714835416777</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1714835416777</updated>
+    </task>
+    <task id="LOCAL-00056" summary="rec implemented">
+      <option name="closed" value="true" />
+      <created>1714868017290</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1714868017290</updated>
+    </task>
+    <task id="LOCAL-00057" summary="rec implemented">
+      <option name="closed" value="true" />
+      <created>1714868224182</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1714868224182</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Refining User Interaction">
+      <option name="closed" value="true" />
+      <created>1714869368354</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1714869368354</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Some in built operators (Conc, Stem, Stern)">
+      <option name="closed" value="true" />
+      <created>1714900332033</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1714900332033</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="writing output into a file" />
+    <MESSAGE value="output AST for test.txt" />
+    <MESSAGE value="fcn_form is changed to function_form" />
+    <MESSAGE value="Parser file name is changed" />
+    <MESSAGE value="Commented print statements. Reading inputs from command lines." />
+    <MESSAGE value="Organized the cmd arguments reading" />
+    <MESSAGE value="File DNE error handled" />
+    <MESSAGE value="Output changed" />
+    <MESSAGE value="Bug fix at reading cmd arguments" />
+    <MESSAGE value="String detection changed" />
+    <MESSAGE value="\t bug fix at state 21, 22" />
+    <MESSAGE value="Standardizer.py" />
+    <MESSAGE value="improving standardizer" />
+    <MESSAGE value="Standardizer completed" />
+    <MESSAGE value="cse machine started. not finished" />
+    <MESSAGE value="conditonal finished" />
+    <MESSAGE value="aug finished" />
+    <MESSAGE value="upto rule 9, 10" />
+    <MESSAGE value="Tau finished" />
+    <MESSAGE value="Rule 11 finished" />
+    <MESSAGE value="Comments, and reformatting" />
+    <MESSAGE value="bug fixes" />
+    <MESSAGE value="rec implemented" />
+    <MESSAGE value="Refining User Interaction" />
+    <MESSAGE value="Some in built operators (Conc, Stem, Stern)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some in built operators (Conc, Stem, Stern)" />
+  </component>
+</project>
